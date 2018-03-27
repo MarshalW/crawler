@@ -1,0 +1,24 @@
+{
+  "name": "crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --experimental-modules app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "args": "^3.0.8",
+    "cheerio": "^1.0.0-rc.2",
+    "command-line-args": "^5.0.2",
+    "config": "^1.30.0",
+    "lets-get-meta": "^2.1.1",
+    "lodash": "^4.17.5",
+    "moment": "^2.21.0",
+    "mongoose": "^5.0.11",
+    "simplecrawler": "^1.1.6",
+    "winston": "^3.0.0-rc3"
+  }
+}
